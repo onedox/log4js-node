@@ -1,6 +1,6 @@
 {
   "name": "log4js",
-  "version": "2.5.3",
+  "version": "2.5.3-no-optional",
   "description": "Port of Log4js to work with node.",
   "homepage": "https://log4js-node.github.io/log4js-node/",
   "files": [
@@ -62,14 +62,6 @@
     "validate-commit-msg": "^2.14.0"
   },
   "optionalDependencies": {
-    "hipchat-notifier": "^1.1.0",
-    "loggly": "^1.1.0",
-    "mailgun-js": "^0.7.0",
-    "nodemailer": "^2.5.0",
-    "redis": "^2.7.1",
-    "slack-node": "~0.2.0",
-    "axios": "^0.15.3",
-    "amqplib": "^0.5.2"
   },
   "browser": {
     "os": false
